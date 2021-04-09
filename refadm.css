@@ -181,7 +181,6 @@ h2, h3, h4, h5 {
 @media (max-width: 1050px){
 
 .dygraph-xlabel {
-	background-color: sienna;
 	color: black;
 }
 
