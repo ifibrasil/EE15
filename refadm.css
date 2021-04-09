@@ -38,7 +38,11 @@ h2, h3, h4, h5 {
 
 /* CSS para as tabelas do estudo
 -----------------------------------------------------------------------------*/
-
+.tabela_scroll{
+	overflow-x: auto;
+	width: 100%;
+	max-width: 100%;
+}
 .titulo_tab p {
 	font-family: Calibri;
 	color: #000000;
@@ -55,6 +59,7 @@ h2, h3, h4, h5 {
 	font-size: 14px;
 	text-align: justify;
 	width: 100%;
+	max-width: 100%;
 	font-style: italic;
 	padding-bottom: 20px;
 	line-height: 120%;
@@ -62,7 +67,12 @@ h2, h3, h4, h5 {
 
 .tabelaifi, .tabelaifi-resumo{
 	margin-left: auto;
-  margin-right: auto;
+	margin-right: auto;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	background-color: sienna;
+	width: 200px;
+	/*max-width: 100%;*/
 }
 
 .tabelaifi, .tabelaifi-resumo tr {
@@ -90,6 +100,7 @@ h2, h3, h4, h5 {
 	background: #eee; 
 }
 
+
 .tabelaifi, .tabelaifi-resumo tr:hover {
 	background-color: #ddd;
 }
@@ -115,7 +126,6 @@ h2, h3, h4, h5 {
 	display: inline;
 	/*border: 2px solid grey;*/
 }
-
 .dygraphs {
 	max-width: 100%;
 	width: 100%;
@@ -141,8 +151,37 @@ h2, h3, h4, h5 {
 	margin-bottom:80px;
 }
 
+
+
+@media screen and (max-device-width: 1050px){
+	.dygraphChart{
+		max-width: 100%;
+		width: 100%;
+		margin-top:40px;
+		margin-bottom:30px;
+		font-family:Cambria;
+	}
+
+	.dygraph-title {
+		font-family: Calibri;
+		max-width: 100%;
+		width: 100%;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		hyphens: auto;
+		/*width: 100%;*/
+		color: #000000;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: justify;
+		line-height: 1.2;
+		margin-bottom:80px;
+	}
+}
+@media (max-width: 1050px){
+
 .dygraph-xlabel {
-	font-size: 18px;
+	background-color: sienna;
 	color: black;
 }
 
