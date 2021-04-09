@@ -28,8 +28,9 @@ h2, h3, h4, h5 {
 	font-family: Cambria;	
 	font-size: 14px;
 	text-align: justify;
-	width: 430px;
-	margin-left: 65px;
+	width: 500px;
+	margin-left: 0;
+	max-width: 100%;
 	padding-bottom: 20px;
 	font-style: italic;
 	line-height: 120%;
@@ -116,7 +117,9 @@ h2, h3, h4, h5 {
 }
 
 .dygraphs {
-	margin-right:200px;
+	max-width: 100%;
+	width: 100%;
+	/*margin-right:200px;*/
 	margin-top:40px;
 	margin-bottom:30px;
 	font-family:Cambria;
@@ -124,13 +127,19 @@ h2, h3, h4, h5 {
 
 .dygraph-title {
 	font-family: Calibri;
+	max-width: 100%;
+	width: 100%;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+	/*width: 100%;*/
 	color: #000000;
+	background-color: seagreen;
 	font-size: 14px;
 	font-weight: bold;
 	text-align: justify;
 	line-height: 1.2;
 	margin-bottom:80px;
-	margin-left:60px;
 }
 
 .dygraph-xlabel {
