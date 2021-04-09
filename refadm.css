@@ -71,8 +71,8 @@ h2, h3, h4, h5 {
 	overflow-x: scroll;
 	overflow-y: scroll;
 	background-color: sienna;
-	width: 200px;
-	/*max-width: 100%;*/
+	width: 100%;
+	max-width: 100;
 }
 
 .tabelaifi, .tabelaifi-resumo tr {
