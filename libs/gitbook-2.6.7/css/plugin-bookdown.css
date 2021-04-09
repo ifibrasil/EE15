@@ -25,7 +25,7 @@ span.search-highlight {
     top: auto;
   }
 }
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
   .book.with-summary .book-header.fixed {
     left: calc(100% - 60px);
     min-width: 300px;
@@ -38,7 +38,7 @@ span.search-highlight {
   .book .book-body.fixed {
     top: 0;
   }
-}*/
+}
 
 .book .book-body.fixed .body-inner {
   top: 50px;
