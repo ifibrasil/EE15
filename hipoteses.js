@@ -8,7 +8,7 @@ var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
 var funcao = function(){
   modal.style.display = "block";
-  modalImg.src = "hipoteses.PNG";
+  modalImg.src = "hipoteses.png";
 }
 
 // Get the <span> element that closes the modal
